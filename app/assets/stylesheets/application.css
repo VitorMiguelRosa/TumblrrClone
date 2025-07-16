@@ -11,6 +11,92 @@
 
 :root {
   font-family: Arial, sans-serif;
-  color: #161616ff;
-  background-color: #f4f4f4;
+  color: #ffffffff;
+  background-color: #3a3a3aff;
+}
+a {
+  color: #4fa4ffff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 26px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.new-wrapper {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #5e5e5eff;
+  margin: 20px;
+}
+.post_wrapper {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #5e5e5eff;
+  margin: 20px;
+}
+body {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+body input,
+textarea {
+  margin: 10px;
+  resize: none;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #3f3f3fff;
+  color: #ffffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+body input:hover,
+textarea:hover {
+  background-color: #272727ff;
+}
+body textarea {
+  height: 200px;
+}
+.submit-btn:hover {
+  background-color: #4fa4ffff;
+  color: #000000ff;
+}
+.submit-btn {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+label {
+  font-size: 26px;
+  font-weight: bold;
+  color: #4fa4ffff;
+  text-transform: uppercase;
+  margin: 20px;
+}
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #4fa4ffff;
+  text-transform: uppercase;
+  margin: 20px;
+}
+.date {
+  padding: 10px;
+  font-size: 12px;
+  color: #fff;
+  margin: 20px;
+  font-weight: 100;
+}
+.body {
+  font-family: Arial, sans-serif;
+  color: #ffffffff;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 20px;
 }

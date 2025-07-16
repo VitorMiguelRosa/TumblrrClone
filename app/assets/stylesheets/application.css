@@ -8,3 +8,9 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+:root {
+  font-family: Arial, sans-serif;
+  color: #161616ff;
+  background-color: #f4f4f4;
+}

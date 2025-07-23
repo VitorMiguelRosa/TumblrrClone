@@ -1,3 +1,4 @@
+<div class="new-wrapper">
 <h1>Create a new post</h1>
 
 <%= form_for :post, url: posts_path do |f|%>
@@ -11,6 +12,6 @@
 </p>
 
 <p>
-    <%= f.submit "Create Post" %>
-</p>
+    <%= f.submit "Create Post", class: "submit-btn" %>
+</p></div>
 <% end %>
